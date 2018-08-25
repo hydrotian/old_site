@@ -352,7 +352,7 @@ a:focus {
 }
 
 .btn {
-    text-transform: uppercase;
+    
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
@@ -361,21 +361,22 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid #219ab3;
+    border: 0px solid #219ab3;
+    outline: 0;
     color: #219ab3;
     background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #219ab3;
+    border: 0px solid #219ab3;
     outline: 0;
     color: #000;
     background-color: #219ab3;
 }
 
 ul.banner-social-buttons {
-    margin-top: 0;
+    margin-top: 10;
 }
 
 @media(max-width:1199px) {
@@ -387,12 +388,12 @@ ul.banner-social-buttons {
 @media(max-width:767px) {
     ul.banner-social-buttons li {
         display: block;
-        margin-bottom: 20px;
-        padding: 0;
+        margin-bottom: 10px;
+        padding: 50;
     }
 
     ul.banner-social-buttons li:last-child {
-        margin-bottom: 0;
+        margin-bottom: 10;
     }
 }
 
