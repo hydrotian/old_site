@@ -276,8 +276,8 @@ a {
 }
 
 .btn {
-    text-transform: uppercase;
-    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+    
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
@@ -285,20 +285,22 @@ a {
 }
 
 .btn-default {
-    border: 0px solid @primary;
-    color: @primary;
+    border: 0px solid #219ab3;
+    outline: 0;
+    color: #219ab3;
     background-color: transparent;
-    &:hover,
-    &:focus {
-        border: 0px solid @primary;
-        outline: none;
-        color: @dark;
-        background-color: @primary;
-    }
+}
+
+.btn-default:hover,
+.btn-default:focus {
+    border: 0px solid #219ab3;
+    outline: 0;
+    color: #000;
+    background-color: #219ab3;
 }
 
 ul.banner-social-buttons {
-    margin-top: 0;
+    margin-top: 10;
 }
 
 @media(max-width:1199px) {
@@ -308,15 +310,14 @@ ul.banner-social-buttons {
 }
 
 @media(max-width:767px) {
-    ul.banner-social-buttons {
-        li {
-            display: block;
-            margin-bottom: 20px;
-            padding: 0;
-            &:last-child {
-                margin-bottom: 0;
-            }
-        }
+    ul.banner-social-buttons li {
+        display: block;
+        margin-bottom: 10px;
+        padding: 50;
+    }
+
+    ul.banner-social-buttons li:last-child {
+        margin-bottom: 10;
     }
 }
 
