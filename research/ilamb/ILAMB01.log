@@ -1,0 +1,14 @@
+[INFO][0][<module>] Linux node006.local 2.6.32-504.16.2.el6.x86_64 #1 SMP Tue Mar 10 17:01:00 EDT 2015 x86_64
+[INFO][0][<module>] /people/zhou014/.local/lib/python3.6/site-packages/ILAMB (2.4)
+[INFO][0][<module>] /share/apps/python/anaconda3.6/lib/python3.6/site-packages/numpy (1.16.2)
+[INFO][0][<module>] /share/apps/python/anaconda3.6/lib/python3.6/site-packages/matplotlib (2.2.2)
+[INFO][0][<module>] /share/apps/python/anaconda3.6/lib/python3.6/site-packages/netCDF4 (1.4.3.2)
+[INFO][0][<module>] /people/zhou014/.local/lib/python3.6/site-packages/cf_units (2.1.1)
+[INFO][0][<module>] /share/apps/python/anaconda3.6/lib/python3.6/site-packages/sympy (1.1.1)
+[INFO][0][<module>] /share/apps/python/anaconda3.6/lib/python3.6/site-packages/mpi4py (2.0.0)
+[INFO][0][<module>] 2019-04-11 15:48:00.176278
+[INFO][0][confront][SurfaceUpwardSWRadiation/CERES][CLM40cn] Success
+[INFO][0][confront][Albedo/CERES][CLM40cn] Success
+[INFO][0][modelPlots][SurfaceUpwardSWRadiation/CERES][CLM40cn] Success
+[INFO][0][modelPlots][Albedo/CERES][CLM40cn] Success
+[INFO][0][<module>][total time] 261.8 s
